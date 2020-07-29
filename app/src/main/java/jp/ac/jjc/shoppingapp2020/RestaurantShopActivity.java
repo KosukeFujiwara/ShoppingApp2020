@@ -23,6 +23,8 @@ public class RestaurantShopActivity extends AppCompatActivity {
     final int menu01 = 680;
     final int menu02 = 1980;
     final int menu03 = 980;
+    final String title = "ご注文の確認";
+    final String confirmation = "本当に注文しますがよろしいですか！？";
     final String notEnough = "お金が足りません。";
     final String thanks = "ご注文ありがとうございました！";
     final String canceled = "キャンセルしました。";
@@ -51,8 +53,6 @@ public class RestaurantShopActivity extends AppCompatActivity {
         imb03.setOnClickListener(listener2);
 
         builder = new AlertDialog.Builder(this);
-
-
     }
 
     private class ImageButtonListener implements View.OnClickListener{
@@ -62,8 +62,8 @@ public class RestaurantShopActivity extends AppCompatActivity {
             int price = 0;
             String show = "";
 
-            builder.setTitle("注文の確認");
-            builder.setMessage("注文しますが本当によろしいですか！？");
+            builder.setTitle(title);
+            builder.setMessage(confirmation);
             builder.setNegativeButton("CANCEL", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
