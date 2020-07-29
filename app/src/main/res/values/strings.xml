@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ShoppingApp2020</string>
+    <string name="intro1">ここは商店街です。</string>
+    <string name="intro2">自由にお買い物をしましょう。</string>
+    <string name="hamburgerB">ハンバーガーショップへ</string>
+    <string name="restaurantB">レストランへ</string>
+    <string name="lotteryB">宝くじ売り場へ</string>
+    <string name="allmymoney">現在の所持金：</string>
+    <string name="money">所持金：</string>
+    <string name="yen">円</string>
+    <string name="back">戻る</string>
+    <string name="hamburgerShop">ここはハンバーガーショップです。</string>
+    <string name="restaurantShop">ここはレストランです。</string>
+    <string name="lottery1">ここは宝くじ売り場です。</string>
+    <string name="lottery2">１回３００円でチャレンジできます。</string>
+    <string name="drawlots">くじを引く</string>
+    <string name="dialog_ok_toast">キャンセルしました。K</string>
+    <string name="dialog_ng_toast">ご注文ありがとうございます。</string>
+    <string name="dialog_btn_ng">CANCEL</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_title">注文の確認</string>
+    <string name="dialog_msg">注文します。よろしいですか？</string>
+</resources>
